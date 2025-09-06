@@ -27,7 +27,7 @@ export const ImageSlider = ()=>{
         return ()=>{
             clearTimeout(timer)
         }
-    },[activeImageIndex])
+    },[])
    return(
     <div className="flex justify-center mt-10">
         <button className="p-4 m-10 font-bold" onClick={handlePreviousClick}>previous</button>
