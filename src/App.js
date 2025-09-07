@@ -1,7 +1,9 @@
 import './App.css';
 import Header from './Header';
 import { ImageSlider } from './ImageSlider';
-import MemoHook from './MemoHook'
+import MemoHook from './MemoHook';
+import CallbackHook from './CallbackHook';
+import RefHook from './RefHook';
 
 function App() {
   const country = "India";
@@ -10,6 +12,8 @@ function App() {
       {/* <Header country= {country}/> <br/>
       <ImageSlider /><br/> */}
       <MemoHook />
+      <CallbackHook/>
+      <RefHook/>
     </div>
   );
 }
