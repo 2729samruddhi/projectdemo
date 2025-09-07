@@ -8,11 +8,11 @@ const Header = (props) => {
     const [count,setCount] = useState(0);
 
     useEffect(()=>{
-        console.log("count");
+       // console.log("count");
         
     },[count])
 
-    console.log(count);
+    //console.log(count);
     
 
      const  handleDecrement=()=>{
