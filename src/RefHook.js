@@ -3,6 +3,8 @@ import React,{useEffect,useState,useRef} from 'react'
 const RefHook = () => {
 const [count, setCount] = useState(0);
   const prevCount = useRef();
+  console.log(prevCount);
+  
 
   useEffect(() => {
     prevCount.current = count; // store current count into ref
