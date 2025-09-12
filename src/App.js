@@ -6,6 +6,7 @@ import CallbackHook from './CallbackHook';
 import RefHook from './RefHook';
 import Counter from './Counter';
 import ContextHook from './ContextHook';
+import About from './About';
 
 function App() {
   const country = "India";
@@ -18,6 +19,7 @@ function App() {
        <RefHook/>
       <Counter/> */}
       <ContextHook/>
+      <About/>
 
     </div>
   );
